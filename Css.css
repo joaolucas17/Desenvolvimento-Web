@@ -1,0 +1,72 @@
+#wrapper{
+	width: 1110px;	
+	
+	margin: auto;	
+	
+}
+header{
+	height: 50px;
+	color: white;
+	
+	
+	
+}
+nav{
+	height: 50px;
+	color: white;
+	padding: 3px
+	
+}
+nav ul li{
+	display: inline;
+	margin-left: 150px;	
+	
+}
+section{
+	height: 850px; 
+	width: 870px;
+	margin: 3px;
+	padding: 2px;
+	color: white;
+	float:right;
+	
+	
+	
+	
+	
+}
+
+.slogan{
+	height: 220px; 
+	width: 220px;
+}
+
+aside{
+	
+	height: 850px; 
+	width: 226px;
+	float:left;
+	margin: 3px 0px 3px 0px;
+	padding: 2px;
+	opacity: 80%;
+	margin-top: 6rem;
+	
+}
+body{
+	
+	background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/524938-fundo-preto-de-luxo-gr%C3%A1tis-vetor.jpg");
+	background-color: white;
+	background-size: contain;
+	background-size: cover;
+	color:white;
+	
+}
+li{
+	color: white;
+}
+.css url{
+	
+    width: 1070px;
+    height: 10px;
+    
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>João Lucas</title>
+		<meta charset = "UTF-8">
+		<link rel = "stylesheet" type = "text/css" href = "Css.css">
+	</head>
+	<body>
+		
+		<div id = "wrapper">
+			<header>
+				<h1>Site Pessoal</h1>
+			</header>
+			<nav>
+				
+					<a href="index.html"><p>Dados Pessoais</p></a>
+					<a href="profissional.html"><p>Dados Profissionais</p></a>
+					<a href="escolaridade.html"><p>Esolaridade</p></a>
+					<a href="contato.html"><p>Contato</p></a>
+				
+			</nav>
+			<section>
+				<form action="/pagina-processa-dados-do-form" method="post">
+					<label for="nome">Nome*:</label><br>
+					<input type="text" id="nome" /><br>
+					<label for="fone">Telefone*:</label><br>
+					<input type="text" id="fone" /><br>
+					<label for="email">Email*:</label><br>
+					<input type="text" id="email" /><br>
+					<p>Motivo do contto:</p>
+					<select name="select">
+						  <option value="valor1">Proposta de emprego</option>
+						  <option value="valor2" selected>Contato pessoal</option>
+						  <option value="valor3">Outros motivos</option>
+					</select><br>
+					<label for="comentarios">Comentario gerais:</label><br>
+					<textarea id="comentario"></textarea><br>
+					<div class="button">
+						<button type="submit">Enviar dados</button>
+					</div>
+				</form>
+
+				
+
+		
+			</section>
+			<aside>
+				<a href = "https://www.linkedin.com/in/lucas-munhoz-b93b79169"> <img class="slogan" src="https://pbs.twimg.com/profile_images/1082974032482443265/8gsUI9oA_400x400.jpg" alt="Linkedin"/> </a>
+				<a href = "https://wa.me/+5519988366941"> <img class="slogan" src="https://i0.wp.com/multarte.com.br/wp-content/uploads/2018/10/whatsapp_logo_png_transparente.png?fit=1280%2C1067&ssl=1" alt= "whatsapp"/> </a>
+			</aside>
+		</div> <!--\wrapper -->
+	</body>
+</html>
